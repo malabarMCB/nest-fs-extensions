@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="FsNestPublicTypes.fs" />
+    <Compile Include="FsNest.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NEST" Version="6.6.0" />
+  </ItemGroup>
+
+</Project>
